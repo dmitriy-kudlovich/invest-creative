@@ -1,0 +1,72 @@
+// font-family: 'Balsamiq Sans', cursive;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Playfair Display', serif;
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    font-family: inherit;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    position: relative;
+    padding: 0 10px;
+    margin: 0 auto;
+    min-width: 320px;
+
+    // Медиазапрос для планшетов и выше
+    @media (min-width: 798px) {
+        padding: 0 15px;
+        max-width: 768px;
+    }
+
+    // Медиазапрос для десктопов
+    @media (min-width: 1230px) {
+        padding: 0 30px;
+        width: 1140px;
+        max-width: unset;
+    }
+}

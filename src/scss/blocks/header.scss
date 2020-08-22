@@ -1,0 +1,56 @@
+.header {
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 30px;
+    width: 100%;
+
+    text-align: center;
+    border-bottom: 1px solid #a09f9fb7;
+
+    @media (min-width: 798px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    // Медиазапрос для десктопов
+    @media (min-width: 1230px) {
+        padding: 50px 60px;
+    }
+}
+
+.page-title {
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    // Медиазапрос для десктопов
+    @media (min-width: 1230px) {
+        position: absolute;
+        margin-bottom: 0;
+        transform: translate(-50%, -50%);
+        left: 10%;
+        top: 50%;
+    }
+}
+
+.logo__text {
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+}
+
+.logo__img {
+    margin-right: 5px;
+    font-size: 25px;
+    color: #00a2ff;
+}
+
+.header-title {
+    font-family: "Exo 2", sans-serif;
+    font-size: 38px;
+}

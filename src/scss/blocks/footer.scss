@@ -1,0 +1,53 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: #dde2e7;
+
+    @media (min-width: 798px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    // Медиазапрос для десктопов
+    @media (min-width: 1230px) {
+        padding: 50px 60px;
+    }
+}
+
+.footer__content-text {
+    margin-bottom: 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.footer__content-imges {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-img .fa-dollar-sign {
+    font-size: 31vw;
+
+    @media (min-width: 798px) {
+        font-size: 235px;
+    }
+
+    // Медиазапрос для десктопов
+    @media (min-width: 1230px) {
+        font-size: 365px;
+    }
+}
+
+.breake {
+    @media (min-width: 798px) {
+        display: none;
+    }
+}
