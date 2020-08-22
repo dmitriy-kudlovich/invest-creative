@@ -20,13 +20,13 @@
     display: inline-block;
     margin-bottom: 50px;
     font-family: "Playfair Display", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 28px;
 }
 
 .section-title {
     font-family: "Playfair Display", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 25px;
     margin-bottom: 30px;
 }
@@ -35,22 +35,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #a09f9fb7;
 
     &:last-child {
         border-bottom: none;
-    }
-
-    @media (min-width: 798px) {
+        margin-bottom: 0;
     }
 
     // Медиазапрос для десктопов
     @media (min-width: 1230px) {
         flex-direction: row;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
